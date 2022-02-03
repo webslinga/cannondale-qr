@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.cannondale.app",
+    "sha256_cert_fingerprints":
+    ["88:DA:54:F2:19:DB:3A:5E:2D:B6:5F:00:DF:6B:EA:81:6C:BE:06:8E:F9:FF:09:40:63:55:15:C5:F2:FA:22:73"]
+  }
+}]
