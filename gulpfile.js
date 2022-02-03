@@ -32,7 +32,7 @@ var SOURCE = {
 var APP = {
   path: {
     root: appRoot,
-    css: appRoot + 'css',
+    css: appRoot + 'stylesheets',
     html: appRoot + '*.html'
     // js: appRoot + 'js',
     // svg: appRoot + 'images'
