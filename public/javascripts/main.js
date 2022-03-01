@@ -9,3 +9,5 @@ const redirectUrl = new URL(registerUrl)
 redirectUrl.searchParams.set('serial_number', serial)
 
 document.getElementById('registerUrl').href = redirectUrl.toString()
+
+window.location.replace(redirectUrl.toString());
