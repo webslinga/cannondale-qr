@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET register. */
 router.get('/register', function(req, res, next) {
-  res.render('register');
+  res.redirect(`https://www.cannondale.com/en-us/bike-registration/register?serial_number=${req.query.serial_number}`);
 });
 
 module.exports = router;
