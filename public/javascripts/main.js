@@ -10,4 +10,4 @@ redirectUrl.searchParams.set('serial_number', serial)
 
 document.getElementById('registerUrl').href = redirectUrl.toString()
 
-window.location.replace(redirectUrl.toString());
+setTimeout(() => {window.location.replace(redirectUrl.toString())}, 100)
